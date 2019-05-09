@@ -1,7 +1,7 @@
-// Receive an array of strings (space separated values), reverse it 
-// and print its elements. Swap elements. For example 
-// the first element should be last and the last element 
-// should be first etc.
+/* Receive an array of strings (space separated values), reverse it 
+and print its elements. Swap elements. For example 
+the first element should be last and the last element 
+should be first etc. */
 
 function reverseAnArrayofStrings(inpArr){
 
