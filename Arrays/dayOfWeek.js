@@ -1,6 +1,8 @@
-/* Write a program which receives a number and prints the 
+/* 
+Write a program which receives a number and prints the 
 corresponding name of the day of week. 
-If the number is not a valid day, print 'Invalid day!' */
+If the number is not a valid day, print 'Invalid day!' 
+*/
 
 function dayOfWeek (day) {
 
@@ -13,4 +15,5 @@ function dayOfWeek (day) {
     }
 }
 
-dayOfWeek (3);
+//test the result
+dayOfWeek(3);
