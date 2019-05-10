@@ -1,5 +1,7 @@
-// Receive an array of strings 
-// parse them to numbers and sum only the even numbers.
+/*
+Receive an array of strings 
+parse them to numbers and sum only the even numbers.
+*/
 
 function sumEvenNumbers(inpArr){
     let sum = 0;
@@ -15,5 +17,6 @@ function sumEvenNumbers(inpArr){
 
 }
 
+//test the result
 sumEvenNumbers(['1','2','3','4','5','6']);
 

@@ -1,5 +1,7 @@
-// Write a function that receives an array of strings 
-// and prints the sum of first and last element in that array
+/*
+Write a function that receives an array of strings 
+and prints the sum of first and last element in that array
+*/
 
 function sumFirstAndLast(input){
     let first = Number(input.shift());
@@ -8,4 +10,5 @@ function sumFirstAndLast(input){
 
 }
 
+//test the result
 sumFirstAndLast(['20', '30', '40']);

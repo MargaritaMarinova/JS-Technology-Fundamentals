@@ -1,7 +1,9 @@
-/* Receive an array of strings (space separated values), reverse it 
+/* 
+Receive an array of strings (space separated values), reverse it 
 and print its elements. Swap elements. For example 
 the first element should be last and the last element 
-should be first etc. */
+should be first etc. 
+*/
 
 function reverseAnArrayofStrings(inpArr){
 
@@ -13,4 +15,5 @@ function reverseAnArrayofStrings(inpArr){
     console.log(newArr.join (' '));
 }
 
+//test the result
 reverseAnArrayofStrings (['a', 'b', 'c', 'd', 'e']);

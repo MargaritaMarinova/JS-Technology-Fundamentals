@@ -1,5 +1,7 @@
-/* Write a program that calculates the difference between 
-the sum of the even and the sum of the odd numbers in an array. */
+/* 
+Write a program that calculates the difference between 
+the sum of the even and the sum of the odd numbers in an array. 
+*/
 
 function evenOddSubtraction (arr) {
     let evenSum = 0;
@@ -18,4 +20,5 @@ function evenOddSubtraction (arr) {
 
 }
 
+//test the result
 evenOddSubtraction ([3,5,7,9]);

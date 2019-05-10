@@ -1,6 +1,8 @@
-/* Receive a number n and an array of elements, 
+/* 
+Receive a number n and an array of elements, 
 create a new array with n numbers, reverse it 
-and print its elements on a single line, space-separated. */
+and print its elements on a single line, space-separated. 
+*/
 
 function reverseAnArrayOfNumbers(n, inpArr) {
 
@@ -12,4 +14,5 @@ function reverseAnArrayOfNumbers(n, inpArr) {
     console.log(newArr.join(" "));
 }
 
+//test the result
 reverseAnArrayOfNumbers(3, [10, 20, 30, 40, 50]);
