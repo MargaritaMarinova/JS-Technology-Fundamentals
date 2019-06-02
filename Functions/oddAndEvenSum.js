@@ -21,4 +21,3 @@ function oddAndEvenSum(number){
 console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`);
 }
 
-oddAndEvenSum(1000435);

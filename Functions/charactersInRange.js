@@ -23,4 +23,3 @@ function charactersInRange(start, end){
 
 }
 
-charactersInRange('a','d');

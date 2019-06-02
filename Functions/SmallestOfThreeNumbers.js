@@ -17,4 +17,3 @@ function smallestOfThreeNumbers(first, second, last){
 
 }
 
-smallestOfThreeNumbers (5,2,3);

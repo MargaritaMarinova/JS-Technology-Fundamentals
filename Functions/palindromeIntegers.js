@@ -16,4 +16,3 @@ function palindromeInteger(arr){
 
 }
 
-palindromeInteger([123,323,421,121]);

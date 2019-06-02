@@ -19,4 +19,4 @@ function addAndSubtract (first, second, last){
 
 }
 
-addAndSubtract(23,6,10);
+
