@@ -23,8 +23,7 @@ Output
 
 function easterGifts(input) {
     let plannedGifts = input.shift().split(" ");
-    //input.pop();
-
+    
     for (let i = 0; i < input.length; i++) {
         let currentNote = input[i].split(' ');
         let command = currentNote[0];
@@ -41,7 +40,7 @@ function easterGifts(input) {
             case 'Required':
                 let requiredGift = currentNote[1];
                 let requiredIndex = +currentNote[2];
-                if (requiredIndex >= 0 && requiredIndex < plannedGifts.length) {
+                if (requiredIndex >= 0 && requiredIndex <= plannedGifts.length) {
                     plannedGifts[requiredIndex] = requiredGift;
                 }
                 break;
@@ -54,17 +53,8 @@ function easterGifts(input) {
                 break;
         }
     }
-    for (let singleGift of plannedGifts) {
-        if (singleGift === 'None') {
-            let giftIndex = plannedGifts.indexOf(singleGift);
-            console.log(typeof giftIndex);
-            if (giftIndex < plannedGifts.length) {
-                plannedGifts.splice(giftIndex, 1);
-            } else if (giftIndex === plannedGifts.length) {
-                plannedGifts.pop();
-            }
-        }
-    }
+    plannedGifts = plannedGifts.filter((val)=> val!=='None');
+   
     console.log(plannedGifts.join(' '));
 }
 
