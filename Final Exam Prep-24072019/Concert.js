@@ -35,7 +35,7 @@ function manageConcert(arr) {
 
                 if (!playTime.hasOwnProperty(group)) {
                     playTime[group] = 0;
-                }
+                }// ако в плейлиста няма такава гурпа, сетваме нейното време да е на нула
                 playTime[group] += time;
                 totalTime += time;
             } else if (command === 'Add') {
@@ -43,7 +43,7 @@ function manageConcert(arr) {
 
                 if (!addMembers.hasOwnProperty(group)) {
                     addMembers[group] = [];
-                }
+                }//ако в участниците няма такъв участник, го създаваме като празен масив;
 
 
                 for (let member of members) {
